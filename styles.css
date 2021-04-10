@@ -1,0 +1,152 @@
+html{
+    background-color: orange;
+    user-select: none;
+}
+
+#controller{
+    float: left;
+    margin: 2%;
+    width: 40%;
+    height: 350px;
+    padding: 2%;
+    box-shadow: 12px 12px 24px 0 rgba(0, 0, 0, 0.2),
+    -12px -12px 24px 0 rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+}
+
+#input_text{
+    position: relative;
+    display:inline-block;
+    padding: 20%;
+    width: 70%;
+    height: 78%;
+    border-radius: 25px;
+    background-color: #e1e0e0;
+    border: none;
+    outline: none;
+    box-shadow: 12px 12px 24px 0 rgba(0, 0, 0, 0.2),
+    -12px -12px 24px 0 rgba(255, 255, 255, 0.5);
+}
+
+#container_left{ 
+    text-align: center;
+    float: left;
+    width: 50%;
+    height: 50%;
+}
+
+#controller_right{
+    text-align: center;
+    padding-left: 5%;
+    float: left;
+    margin-left: 5%;
+    width: 35%;
+    height: 100%;
+    margin-top: -5%;
+    position: relative;
+}
+
+input[type='radio']:disabled {
+    pointer-events: none;
+}
+
+input[type='radio']:disabled + label{
+    text-decoration: black line-through;
+}
+
+label {
+    display: inline-block;
+    text-align: center;
+    padding-top: 3%;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    box-shadow: 12px 12px 24px 0 rgba(0, 0, 0, 0.2),
+    -12px -12px 24px 0 rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  input[type="radio"] {
+    display: none;
+  }
+  
+  input[type="radio"]:checked + label {
+    box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2),
+    inset -6px -6px 10px 0 rgba(255, 255, 255, 0.5);
+  }
+  
+
+#start_button{
+    color: black;
+    box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.2),
+    -1px -1px 2px 0 rgba(255, 255, 255, 0.5);
+    width: 100%;
+    height: 40px;
+    font-size: 25px;
+    margin-top: 10%;
+    font-weight: bold;
+    bottom: 4;
+    border-radius: 50px;
+    transition: 0.3s;
+    border: none;
+    outline:none;
+}
+
+#start_button:active{
+    box-shadow: inset 10px 10px 10px 0 rgba(0, 0, 0, 0.2),
+    inset -10px -10px 10px 0 rgba(255, 255, 255, 0.5);
+}
+
+#p_select{
+    font-size: 25px;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+}
+
+input[type="file"] {
+    display: none;
+}
+
+#label_input {
+    position: relative;
+    display: inline-block;
+    height: 3%;
+    width: 130px;
+    box-shadow: none;
+    color: black;
+    cursor: pointer;
+}
+
+#label_input:hover{
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+}
+
+#result_box{
+    float: left;
+    margin: 3%;
+    margin-left: 5%;
+    width: 40%;
+    height: 600px;
+    padding: 0%;
+    box-shadow: 12px 12px 24px 0 rgba(1, 1, 1, 0.2),
+    -12px -12px 24px 0 rgba(255, 255, 255, 0.5);
+    border-radius: 30px;
+}
+
+#result_text{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    background-color: #e0e0e0;
+    border: none;
+    outline: none;
+}
+
+textarea{
+    resize: none;
+}
